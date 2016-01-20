@@ -2,6 +2,7 @@
 
 function! Pdf()
   if &filetype == "tex"
+    w
     let filename = expand('%:r')
     let filenameTex = filename . ".tex"
     let filenamePdf = filename . ".pdf"
