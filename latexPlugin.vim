@@ -1,4 +1,6 @@
 
+cabbrev pdf call Pdf()
+
 
 function! Pdf()
   if &filetype == "tex"
