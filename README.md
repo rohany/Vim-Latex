@@ -23,7 +23,6 @@ vim ~/.vimrc
 
 ```vim
 source ~/.vimPlugins/latexPlugin.vim
-cabbrev pdf call Pdf()
 ```
 
 Now to use the plugin, just type pdf in visual mode, and your .tex will be compiled into a pdf and displayed!
